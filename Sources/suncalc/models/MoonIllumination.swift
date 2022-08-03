@@ -26,7 +26,7 @@ import Foundation
 ///
 /// By subtracting the `parallacticAngle` from the `angle` one can get the zenith angle of the moons bright limb (anticlockwise).
 /// The zenith angle can be used do draw the moon shape from the observers perspective (e.g. moon lying on its back).
-struct MoonIllumination {
+public struct MoonIllumination {
     
     /// illuminated fraction of the moon; varies from `0.0` (new moon) to `1.0` (full moon)
 	let fraction:Double
