@@ -138,7 +138,7 @@ public final class SunCalc {
     ///
     /// - parameter timeAndDate: The input Date
     /// - returns: the Moon illumination as fraction, phase and angle.
-    class func getMoonIllumination(timeAndDate: Date) -> MoonIllumination {
+    public class func getMoonIllumination(timeAndDate: Date) -> MoonIllumination {
         let d: Double = DateUtils.toDays(date: timeAndDate)
         let s: EquatorialCoordinates = SunUtils.getSunCoords(d: d)
         let m: GeocentricCoordinates = MoonUtils.getMoonCoords(d: d)
