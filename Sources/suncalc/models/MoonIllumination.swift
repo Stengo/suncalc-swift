@@ -29,13 +29,13 @@ import Foundation
 public struct MoonIllumination {
     
     /// illuminated fraction of the moon; varies from `0.0` (new moon) to `1.0` (full moon)
-	let fraction:Double
+	public let fraction:Double
     
     /// moon phase; varies from `0.0` to `1.0`, described abow
-	let phase:Double
+	public let phase:Double
     
     /// midpoint angle in radians of the illuminated limb of the moon reckoned eastward from the north point of the disk;
     /// the moon is waxing if the angle is negative, and waning if positive
-	let angle:Double
+	public let angle:Double
 	
 }
