@@ -8,8 +8,8 @@
 import Foundation
 
 public struct MoonPosition {
-	let azimuth:Double
-	let altitude:Double
-	let distance:Double
-    let parallaticAngle:Double
+	public let azimuth:Double
+	public let altitude:Double
+	public let distance:Double
+    public let parallaticAngle:Double
 }
