@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct MoonPosition {
+public struct MoonPosition {
 	let azimuth:Double
 	let altitude:Double
 	let distance:Double
