@@ -11,5 +11,5 @@ public struct MoonPosition {
 	public let azimuth:Double
 	public let altitude:Double
 	public let distance:Double
-    public let parallaticAngle:Double
+    public let parallacticAngle:Double
 }

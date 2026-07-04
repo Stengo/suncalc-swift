@@ -127,7 +127,7 @@ public final class SunCalc {
 
         return MoonPosition(
             azimuth: PositionUtils.getAzimuth(H: H, phi: phi, dec: c.declination), altitude: hCorrect,
-            distance: c.distance, parallaticAngle: pa)
+            distance: c.distance, parallacticAngle: pa)
     }
 
     /// Get the Moon illumination at the given Date
