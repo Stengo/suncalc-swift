@@ -108,7 +108,7 @@ public final class SunCalc {
     ///     - latitude: The geographical latitude.
     ///     - longitude: The geographical longitude.
     /// - returns: The moon position.
-    class func getMoonPosition(timeAndDate: Date, latitude: Double, longitude: Double)
+    public class func getMoonPosition(timeAndDate: Date, latitude: Double, longitude: Double)
         -> MoonPosition
     {
         
